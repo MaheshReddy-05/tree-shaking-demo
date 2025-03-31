@@ -33,6 +33,8 @@
           },
           "configurations": {
             "production": {
+              "optimization": true,
+              "statsJson": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -92,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1fa438f2-d9db-441d-8b9f-83d09ec19ae2"
   }
 }
